@@ -4,7 +4,7 @@ function Section({ title, children }) {
   const { sectionTitle } = css;
   return (
     <section>
-      <p className={sectionTitle}> {title}</p>
+      <p className={sectionTitle}>{title}</p>
       {children}
     </section>
   );
